@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# sec
+.env
+secrets.json
+config.yaml
+
+# venv
+.venv/
+venv/
+env/
+
+# data
+data/raw/
+data/processed/
+
+# sample data
+!data/sample/*.csv
+!data/sample/*.json
+!data/sample/*.xml
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs&temps
+*.log
+*.tmp
