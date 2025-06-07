@@ -68,8 +68,7 @@ if xml_file.status_code == 200:
         root_temp = tree_temp.getroot()
         gen_temp = root_temp.attrib.get('gen')
 
-        print(gen_lastest)
-        print(gen_temp)
+
         #if GDDiK xml was download
         if gen_lastest == gen_temp:
 
