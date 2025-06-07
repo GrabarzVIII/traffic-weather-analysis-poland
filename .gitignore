@@ -6,6 +6,7 @@ __pycache__/
 .env
 secrets.json
 config.yaml
+launch.json
 
 # venv
 .venv/
@@ -13,7 +14,7 @@ venv/
 env/
 
 # data
-data/raw/
+Data/GDDiK_data/
 data/processed/
 
 # sample data
@@ -27,5 +28,6 @@ data/processed/
 .DS_Store
 
 # Logs&temps
+/logs/
 *.log
 *.tmp
