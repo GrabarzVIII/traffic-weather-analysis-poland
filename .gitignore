@@ -14,7 +14,7 @@ venv/
 env/
 
 # data
-Data/GDDiK_data/
+#Data/GDDiK_data/
 data/processed/
 
 # sample data
