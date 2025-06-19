@@ -8,6 +8,7 @@ DATA_GDDIK_TEMP_PATH = os.path.join(BASE_DIR,"Data","GDDiK_data","temp_xml","tem
 
 #GDDiK logs path
 DATA_GDDIK_LOG_PATH = os.path.join(BASE_DIR,"logs","GDDiK_download.log") #r"logs\GDDiK_download.log"
+DATA_WHEATHER_LOG_PATH = os.path.join(BASE_DIR,"logs","weather_download.log")
 
 #External URLs
 URL_GDDIK = r"https://www.archiwum.gddkia.gov.pl/dane/zima_html/utrdane.xml"
