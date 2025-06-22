@@ -36,7 +36,8 @@ def get_weather (lat: float, lon: float, data_str: str, type_utr:str) -> pd.core
             'coco': 'weather_condition_code'
         })
         
-        weather_df['utr_index'] = f'{type_utr}{lat}{lon}{data_str}'
+        weather_df.reset_index(inplace=True)
+        weather_df['utr_index'] = f'{type_utr}{lat:.4f}{lon:.4f}{data_str}'
         
         if min < 20 and start in weather_df.index:
             log(f'weather_data_for_{type_utr}{lat}{lon}{data_str}_downloaded')
@@ -44,7 +45,9 @@ def get_weather (lat: float, lon: float, data_str: str, type_utr:str) -> pd.core
 
         elif min >= 20 and min < 40:
             log(f'weather_data_for_{type_utr}{lat}{lon}{data_str}_downloaded')
-            return weather_df.groupby('utr_index').mean(numeric_only=True)
+            df_groupby = weather_df.groupby('utr_index').mean(numeric_only=True)
+            df_groupby['utr_index'] = f'{type_utr}{lat:.4f}{lon:.4f}{data_str}'
+            return df_groupby
         
         elif min >= 40 and end in weather_df.index:
             log(f'weather_data_for_{type_utr}{lat}{lon}{data_str}_downloaded')

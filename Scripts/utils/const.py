@@ -12,3 +12,7 @@ DATA_WHEATHER_LOG_PATH = os.path.join(BASE_DIR,"logs","weather_download.log")
 
 #External URLs
 URL_GDDIK = r"https://www.archiwum.gddkia.gov.pl/dane/zima_html/utrdane.xml"
+
+#Parsed data
+PARASED_GDDIK = os.path.join(BASE_DIR,"Data","Parased","GDDiK")
+PARASED_WEATHER = os.path.join(BASE_DIR,"Data","Parased","Weather")

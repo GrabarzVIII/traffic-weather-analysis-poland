@@ -25,6 +25,9 @@ def data_parsing():
 
     for i, col in gddik_df.iterrows():
         
+        if col['typ'] == 'U':
+            continue
+
         if pd.isna(col['geo_long']) or pd.isna(col['geo_lat']) or pd.isna(col['data_powstania']):
             continue 
 
