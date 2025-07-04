@@ -81,12 +81,13 @@ def data_parsing():
 
         os.makedirs(PARASED_WEATHER, exist_ok=True)
         os.makedirs(PARASED_GDDIK, exist_ok=True)
-
-        weather_file = os.path.join(PARASED_WEATHER,f'weather_{gen}.csv').replace(':','')
+        gen = gen.replace(':','')
+        
+        weather_file = os.path.join(PARASED_WEATHER,f'weather_{gen}.csv')
         print(weather_file)
         weather_df.to_csv(weather_file,sep=";")
 
-        gddik_file = os.path.join(PARASED_GDDIK,f'GDDiK_{gen}.csv').replace(':','')
+        gddik_file = os.path.join(PARASED_GDDIK,f'GDDiK_{gen}.csv')
         print(gddik_file)
         gddik_df_final.to_csv(gddik_file,sep=";")
 

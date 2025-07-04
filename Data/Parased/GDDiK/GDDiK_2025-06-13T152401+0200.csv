@@ -1,0 +1,8 @@
+;typ;nr_drogi;woj;km;dl;geo_lat;geo_long;nazwa_odcinka;data_powstania;data_likwidacji;objazd;objazd_mapy;rodzaj;skutki;ogr_nosnosc;ogr_nacisk;ogr_skrajnia_pozioma;ogr_skrajnia_pionowa;ogr_szerokosc;ogr_predkosc;ruch_wahadlowy;sygnalizacja_swietlna;awaria_mostu;ruch_2_kierunkowy;droga_zamknieta;czasy_oczekiwania;utr_index
+0;W;S8e;dolnośląskie;29.6;0.0;51.178573;17.090633;Węzeł Wrocław Psie Pole - węzeł Łozina (k. Wrocław);2025-06-13T12:30:00+0200;2025-06-13T15:30:00+0200;"W wyniku zderzenia 2 pojazdów osobowych doszło do pożaru jednego z pojazdów. Jezdnia w kierunku Wrocławia zablokowana. Możliwy objazd przez w. Łozina -
+Godzina 14:42 - odblokowano pas lewy, pas prawy dalej zablokowany.
+";;;Zablokowana jezdnia lewa;;;;;;;;;;;;;W51.178617.09062025-06-13T12:30:00+0200
+1;W;15;warmińsko-mazurskie;0.0;0.0;51.326931;17.053428;Sampława;2025-05-01T21:20:00+0200;2025-05-01T23:50:00+0200;"
+";;;Droga zablokowana;;;;;;;;;;;;;W51.178617.09062025-06-13T12:30:00+0200
+2;W;91;łódzkie;296.5;0.0;52.20456;19.176423;Krośniewice - Łęczyca;2025-06-13T10:18:00+0200;2025-06-13T16:00:00+0200;"Zderzenie pojazdów. Droga zablokowana. Dla sam. osobowych objazd drogami lokalnymi.
+";;;Droga zablokowana;;;;;;;;;;;;;W51.178617.09062025-06-13T12:30:00+0200
